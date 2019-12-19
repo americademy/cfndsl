@@ -855,6 +855,7 @@ Resources:
       DBSubnetGroupName: String
       DeletionProtection: Boolean
       Engine: String
+      EngineMode: String
       EngineVersion: String
       MasterUsername: String
       MasterUserPassword: String

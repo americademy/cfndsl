@@ -850,7 +850,7 @@ Resources:
       BackupRetentionPeriod: Integer
       DatabaseName: String
       DBClusterParameterGroupName: String
-      DBInstanceIdentifier: String
+      DBClusterIdentifier: String
       DBSubnetGroupName: String
       DeletionProtection: Boolean
       Engine: String

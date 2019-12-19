@@ -847,6 +847,7 @@ Resources:
   "AWS::RDS::DBCluster" :
     Properties:
       AvailabilityZones: [ String ]
+      EnableCloudwatchLogsExports: [ String ]
       BackupRetentionPeriod: Integer
       DatabaseName: String
       DBClusterParameterGroupName: String

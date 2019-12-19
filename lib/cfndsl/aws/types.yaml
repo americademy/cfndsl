@@ -850,7 +850,9 @@ Resources:
       BackupRetentionPeriod: Integer
       DatabaseName: String
       DBClusterParameterGroupName: String
+      DBInstanceIdentifier: String
       DBSubnetGroupName: String
+      DeletionProtection: Boolean
       Engine: String
       EngineVersion: String
       MasterUsername: String
@@ -859,6 +861,7 @@ Resources:
       PreferredBackupWindow: String
       PreferredMaintenanceWindow: String
       SnapshotIdentifier: String
+      ScalingConfiguration: JSON
       Tags: [ ResourceTag ]
       VpcSecurityGroupIds: [ String ]
   "AWS::RDS::DBClusterParameterGroup" :
